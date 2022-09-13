@@ -10,7 +10,7 @@ xls_aws = pd.ExcelFile(r'C:\Users\vivijayakumar\OneDrive - Deloitte (O365D)\Docu
 
 RAW = pd.read_excel(xls_aws, 'RAW')
 RAW.columns.values
-len(RAW)
+len(RAW)    
 
 
 print(RAW.groupby('Instance State').groups)
